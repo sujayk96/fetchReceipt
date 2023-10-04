@@ -34,6 +34,8 @@ You can typically access it through a web browser by navigating to http://localh
 ### Installation method 2: Plain install
 If you would like to run the code with out docker.
 ### Make sure you have python 3.11
+0. Install python 3.11 from python's website.
+
 1. Clone the repo
 ```bash
 git clone https://github.com/sujayk96/fetchReceipt.git
@@ -53,6 +55,8 @@ pipenv shell
 ```bash
 pipenv install
 ```
+
+4.1 Make sure the python version is 3.11 in Pipfile.
 
 5. Run Flask application
 ```bash
