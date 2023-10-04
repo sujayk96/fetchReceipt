@@ -98,7 +98,7 @@ def generate_id():
 
     except jsonschema.exceptions.ValidationError as e:
         # Return validation errors
-        return jsonify({"msg": "Receipt is invalid"}), 400
+        return jsonify({"msg": "Receipt is invalid from validator"}), 400
 
 
 @app.route('/receipts/<id>/points', methods=['GET'])
