@@ -2,6 +2,8 @@
 
 Flask web service to generate ID fo valid receipt and calculate the reward points for the receipts based on business logic.
 
+## Test cases can be found on https://github.com/fetch-rewards/receipt-processor-challenge page's readme..
+
 ## Table of Contents
 
 - [Installation](#installation)
