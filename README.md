@@ -75,41 +75,41 @@ Response: A JSON object containing the number of points awarded.<br>
 
 ## Testing
 1. Running given example 1
-![Alt text](image.png)
+![Alt text](tests/image.png)
 ID generated. Status code: 200
 
 2. Running given exapmle 2
-![Alt text](image-1.png)
+![Alt text](tests/image-1.png)
 Test Failed. Status Code: 400
 ### Reason: Retailer name has white spaces. The api.yml provided contains schema which doesnot allow white spaces in Reatiler Name.
 
 3. Running given example 3
-![Alt text](image-2.png)
+![Alt text](tests/image-2.png)
 ID generated. Status code: 200
 
-![Alt text](image-3.png)
+![Alt text](tests/image-3.png)
 
 4. Running given exaple 4
-![Alt text](image-4.png)
+![Alt text](tests/image-4.png)
 ID generated. Status code: 200
 
-![Alt text](image-5.png)
+![Alt text](tests/image-5.png)
 
 ### Testing Boundary cases
 5. RetailerName regex check
-![Alt text](image-6.png)
+![Alt text](tests/image-6.png)
 
 6. Invalid Date
-![Alt text](image-7.png)
+![Alt text](tests/image-7.png)
 
 7. Invalid Time regex
-![Alt text](image-8.png)
+![Alt text](tests/image-8.png)
 
 8. Sum of prices equals to total
-![Alt text](image-9.png)
+![Alt text](tests/image-9.png)
 
 9. Min one item condition
-![Alt text](image-10.png)
+![Alt text](tests/image-10.png)
 
 10. Schema Validation
-![Alt text](image-11.png)
+![Alt text](tests/image-11.png)

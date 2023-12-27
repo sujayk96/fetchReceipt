@@ -23,4 +23,4 @@ EXPOSE 80
 ENV NAME World
 
 # Run the Flask application using Pipenv
-CMD ["pipenv", "run", "python", "receipt.py"]
+CMD ["pipenv", "run", "python", "run.py"]
