@@ -60,7 +60,7 @@ pipenv install
 
 5. Run Flask application
 ```bash
-python receipt.py
+python run.py
 ```
 
 6. Checkout the APIs.
